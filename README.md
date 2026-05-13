@@ -1,51 +1,65 @@
-📊 MACROECONOMICS 101
-Self-Paced Online Course in Introductory Macroeconomics with AI-Powered Tutoring, Drafting, and Academic-Integrity Forensics
+# 📊 MACROECONOMICS 101
 
-🧩 Overview
-Macroeconomics 101 is a complete, single-semester introductory macroeconomics course delivered as a self-contained web application. It covers the standard ECON 101 curriculum — GDP measurement, inflation and the quantity theory of money, unemployment, fiscal and monetary policy, the Phillips curve, trade deficits, recessions, long-run growth, public debt, the open-economy trilemma, and the Keynesian–Classical debate — across 13 sequential modules totaling 800 points.
+**AI-Powered Economics Course Platform with Writing Process Forensics and Academic Integrity Enforcement**
 
-Unlike a generic LMS shell wrapped around video lectures, Macroeconomics 101 is built around a strict pedagogical principle: students must demonstrate that they actually wrote what they submit. Every essay and term paper is graded by an AI tutor against a published model response, every draft is autosaved with keystroke and paste forensics, and every submission is scored for AI-generated content before it reaches the gradebook. No padding, no hedging, no participation credit for showing up.
+---
 
-👥 Who It's For
-Undergraduates taking their first macroeconomics course -- need a structured 13-module path with explicit learning outcomes, model answers, and immediate feedback rather than a 700-page textbook and a midterm
-Returning adult learners and career-changers -- need a fully asynchronous course they can complete on their own schedule without sacrificing rigor or graded feedback
-High-school AP Macro and dual-enrollment students -- need college-level practice problems and essay prompts with the same grading standards used in a university classroom
-Self-studiers preparing for the GRE, CFA Level I economics section, or graduate program prerequisites -- need a verifiable, transcript-ready record of mastery across the standard macro syllabus
-Instructors and TAs -- need a turnkey course shell with curriculum data, sequential gating, draft locking, and a built-in academic-integrity pipeline they can adopt or fork
-⚙️ Core Capabilities
-13-Module Sequential Curriculum -- 7 discussion posts (50 pts each), 5 essays (50 pts each), and 1 two-part term paper (200 pts) totaling exactly 800 points. Each module includes learning objectives, required reading drawn verbatim from the course textbook, an assignment prompt, and a published model response students see only after submitting.
+## 🧩 Overview
 
-Sequential Gating -- Students cannot skip ahead. The system enforces strict ordering (d1 → e1 → d2 → e2 → … → d7 → tp) and blocks any submission whose prerequisite modules are not yet complete, with an explicit list of what is missing.
+- **What it is** -- An interactive online course platform for introductory Macroeconomics that pairs a structured curriculum with a conversational AI tutor and a high-integrity writing environment.
+- **What it runs on** -- Claude Sonnet 4.5 powers the in-module tutor; GPTZero powers real-time AI-content scoring; a custom keystroke-forensics engine analyzes how every submission was actually produced.
+- **Operating principle** -- Every submission is evaluated not just on what was written, but on *how* it was produced. If a student is asked to type their own response, that is exactly what the system enforces.
+- **What it refuses to do** -- No silent pastes, no ghostwritten paragraphs, no tutor that drafts the assignment for the student, no plausible deniability at grading time.
 
-AI Tutor (Claude Sonnet 4.5) -- Conversational instructor backed by the full curriculum context and a macroeconomics-specific system prompt. Answers conceptual questions, walks through derivations, and explicitly refuses to write the student's assignment for them.
+---
 
-AI Draft Feedback -- One-click formative feedback on any in-progress draft. Identifies missing concepts, weak arguments, and structural problems against the module's model response without revealing the model answer itself.
+## 👥 Who It's For
 
-AI Study Tools -- Per-module study guides, mini-tutorials, podcast-style audio hooks, and rewrite assistance. Every tool is constrained to the module's actual reading and learning objectives — no off-topic drift.
+- **Students** -- enrolled in introductory Macroeconomics who need a structured curriculum, an always-available tutor, and clear feedback on their writing
+- **Instructors and professors** -- need to assign writing-intensive work in the age of LLMs without losing the ability to verify authorship
+- **Teaching assistants and graders** -- need a single dashboard to review submissions, AI probability scores, and process-forensics reports side by side
+- **Department administrators** -- need defensible, auditable evidence of academic integrity enforcement across sections
+- **Accessibility coordinators** -- need a first-class accommodated mode that disables monitoring without forcing students into a parallel workflow
+- **Anyone** -- who believes that learning economics still requires the student to do the thinking
 
-Draft Autosave + Lock -- Every keystroke is autosaved server-side. On submission the draft is locked and timestamped, producing an immutable record of what was submitted and when.
+---
 
-Process Forensics -- The drafting canvas captures keystroke cadence, paste events, and edit timing. A scoring engine flags submissions that look like transcription of pre-written or AI-generated text (≥70 = likelyAI) versus organic composition (<35 = human) with six distinct behavioral flags.
+## ⚙️ Core Capabilities
 
-Term Paper Two-Part Pipeline -- The capstone (Module 13, 200 pts) is split into a 100-point outline and a 100-point final paper, each with its own model version. Students cannot submit the final paper without first submitting an approved outline.
+- **Structured Curriculum** -- A complete sequence of numbered modules covering opportunity cost, supply and demand, elasticity, market structures, and core macro topics. Content is ingested from canonical course materials and rendered as navigable, lesson-by-lesson units.
 
-Admin Accommodation Toggle -- Per-student override that relaxes timing-based forensics flags for students with documented accommodations, persisted in the database and audit-logged.
+- **AI Tutor (Claude Sonnet 4.5)** -- A persistent side-panel tutor available inside every module. Programmed with hard guardrails so it explains, questions, and challenges -- but never writes the assignment for the student.
 
-System Diagnostic -- One-click self-check that verifies environment variables, database connectivity, all four core tables, the curriculum loader, the Anthropic integration, and the full functional pipeline (student creation → integrity ack → draft round-trip → autosave → submission → gating → cleanup). Color-coded pass/fail with a downloadable report.
+- **Draft Workshop (Box 1)** -- A low-stakes drafting space where students paste an early draft and receive a single round of conceptual feedback on *what* needs work. Once feedback is delivered, the draft locks. No infinite revision loops, no AI co-authoring.
 
-🚀 What Makes It Different
-It actually grades against a model answer -- Every essay and discussion has a published model response written by the instructor. The AI grader compares the student's submission to that specific model, not to a generic "good writing" rubric. If the student missed the point, the feedback says exactly which point they missed.
+- **Submission Canvas (Box 2)** -- A custom high-integrity editor where final responses must be typed. External pasting is blocked, every keystroke is recorded, and the student sees their own AI-probability score in real time as they write.
 
-It separates writing from transcription -- Most online courses cannot tell the difference between a student who wrote a good essay and a student who pasted a good essay. The process-forensics layer scores composition behavior independently of the text itself, so a polished submission with a paste-heavy keystroke trace is flagged regardless of how well it reads.
+- **Real-Time GPTZero Integration** -- Live AI-detection scoring surfaced as a traffic-light indicator while the student types, so there are no surprises at submission time.
 
-It enforces sequential mastery -- No student can submit Module 5 without finishing Modules 1–4 first. The gating logic is enforced server-side and returns the exact list of missing prerequisites, so the path through the course is unambiguous.
+- **Writing Process Forensics** -- Diachronic analysis of keystroke timing, pauses, deletions, and burst patterns. Distinguishes natural human composition from pasted or transcribed AI output, even when the final text would pass a static detector.
 
-AI tutor that refuses to do the assignment -- The system prompt is explicit: the tutor explains, derives, and quizzes, but it will not draft the student's discussion post or essay. Students who try to extract the assignment text get a redirect to the relevant reading.
+- **Assessments and Progress Tracking** -- Per-module point tracking, submission status, and grading history surfaced in a single student-facing dashboard.
 
-One-shot integrity acknowledgment -- Before any submission is accepted, the student must explicitly acknowledge the academic-integrity policy. The acknowledgment is timestamped and stored, creating a defensible audit trail.
+- **Admin Dashboard** -- Instructor view at `/admin/submissions` for reviewing every submission alongside its AI score, process-forensics report, and full keystroke replay.
 
-Curriculum-as-code -- All 13 modules — titles, objectives, readings, prompts, model responses, point values — live in a single TypeScript file and are loaded identically by both the frontend and the API server. Forking the course to a different subject is a single-file edit.
+- **Accommodated Mode** -- A first-class accessibility mode that disables paste prevention and process monitoring for students with documented accommodations, without segregating them into a separate workflow.
 
-Built on a real Postgres database -- Students, submissions, drafts, and canvas autosave sessions are persisted in Neon Postgres with cascade-delete integrity. Nothing lives in browser local storage; nothing is lost on refresh.
+- **Syllabus and Start Here** -- Clear onboarding with course objectives, grading policy, integrity expectations, and a guided first-session walkthrough.
 
-Production-grade diagnostic before every deploy -- The 20-check self-test runs the entire pipeline against the live database and live AI provider. If anything is wrong — missing migration, expired key, broken gating logic — the report says exactly what failed and where.
+---
+
+## 🚀 What Makes It Different
+
+- **It enforces what it asks for** -- If the assignment says "type your response," the platform makes that the only thing that works. No quiet pasting, no workaround tabs.
+
+- **It evaluates process, not just product** -- Most AI-detection tools grade the final text. Macroeconomics 101 grades the *history* of how that text appeared on the screen. Pasted AI output looks nothing like genuine composition under keystroke analysis.
+
+- **The tutor refuses to do the work** -- The Claude tutor is configured to teach, probe, and explain -- never to draft, outline, or revise an assignment on the student's behalf. Students get help understanding; they do not get help cheating.
+
+- **Two-stage writing pipeline** -- Draft Workshop and Submission Canvas separate "thinking out loud" from "final accountable work." Students get one round of substantive feedback, then own their final draft.
+
+- **Real-time feedback, not post-hoc accusation** -- Students see their AI score as they write. Integrity issues become a conversation during composition, not a confrontation after submission.
+
+- **Accommodations are built in, not bolted on** -- Accommodated mode is part of the core design, so students with documented needs use the same interface as everyone else without monitoring.
+
+- **Auditable by design** -- Every submission carries a full forensic record: keystroke log, AI-score history, draft progression, and tutor transcript. Grading decisions are defensible end-to-end.
